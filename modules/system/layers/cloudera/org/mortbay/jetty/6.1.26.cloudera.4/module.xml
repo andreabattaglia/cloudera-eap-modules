@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module xmlns="urn:jboss:module:1.1" name="org.mortbay.jetty" slot="6.1.26.cloudera.4">
+    <resources>
+       <resource-root path="jetty-6.1.26.cloudera.4.jar"/>
+       <resource-root path="jetty-util-6.1.26.cloudera.4.jar"/>
+    </resources>
+<dependencies>
+</dependencies>
+</module>

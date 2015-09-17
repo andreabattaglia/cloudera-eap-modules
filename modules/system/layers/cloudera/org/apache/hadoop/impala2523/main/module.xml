@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<module xmlns="urn:jboss:module:1.1" name="org.apache.hadoop.impala2523">
+
+    <resources>
+       <resource-root path="ImpalaJDBC41.jar"/>
+       <resource-root path="hive_metastore.jar"/>
+       <resource-root path="hive_service.jar"/>
+       <resource-root path="libfb303-0.9.0.jar"/>
+       <resource-root path="libthrift-0.9.0.jar"/>
+       <resource-root path="TCLIServiceClient.jar"/>
+       <resource-root path="ql.jar"/>
+    </resources>
+
+    <dependencies>
+       <module name="org.apache.log4j"/>
+       <module name="org.slf4j"/>
+       <module name="org.apache.commons.logging"/>
+       <module name="javax.api"/>
+       <module name="javax.resource.api"/>
+       <module name="sun.jdk"/>
+    </dependencies>
+</module>

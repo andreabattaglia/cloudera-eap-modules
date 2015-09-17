@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="com.sun.jersey" slot="1.9">
+    <resources>
+        <resource-root path="jersey-core-1.9.jar"/>
+        <resource-root path="jersey-server-1.9.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="asm.asm"/>   
+        <module name="javax.enterprise.api"/>
+        <module name="org.jboss.as.weld"/>
+        <module name="javax.api"/>
+        <module name="sun.jdk" export="true"/>
+        <module name="javax.resource.api"/>   
+    </dependencies>
+</module>
