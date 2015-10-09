@@ -17,5 +17,6 @@
         <module name="javax.api"/>
         <module name="javax.resource.api"/> 
         <module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.3.1" export="true"/>       
+        <module name="sun.jdk"/>
     </dependencies>
 </module>

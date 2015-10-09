@@ -1,4 +1,4 @@
-<module xmlns="urn:jboss:module:1.1" name="org.apache.solr" slot="4.4.0-cdh5.3.1">
+<module xmlns="urn:jboss:module:1.1" name="org.apache.hadoop.solr" slot="4.4.0-cdh5.3.1">
        
     <resources>
         <resource-root path="solr-solrj-4.4.0-cdh5.3.1.jar"/>
@@ -12,7 +12,7 @@
         <module name="org.apache.commons.configuration"/>
         <module name="org.apache.commons.logging"/>
         <module name="org.apache.commons.io"/>
-        <module name="org.apache.zookeeper" slot="3.4.5-cdh5.3.1" export="true"/>
+        <module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.3.1" export="true"/>
         <module name="org.apache.hadoop.auth" slot="2.5.0-cdh5.3.1" export="true"/>
         <module name="org.apache.httpcomponents" />
         <module name="org.codehaus.woodstox"/>

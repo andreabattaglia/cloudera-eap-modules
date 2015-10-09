@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.0" name="org.apache.hadoop.hdfs">
     <resources>
-        <resource-root path="hadoop-hdfs-2.5.0-cdh5.3.1.jar"/>
+        <resource-root path="hadoop-hdfs-2.5.0-cdh5.3.6.jar"/>
         <resource-root path="htrace-core-3.1.0-incubating.jar"/>
         <resource-root path="leveldbjni-all-1.8.jar"/>
     </resources>
@@ -9,7 +9,7 @@
     <dependencies>
         <module name="com.google.guava"/>
         <module name="org.mortbay.jetty" slot="6.1.26.cloudera.4"/>
-        <module name="com.sun.jertsey" slot="1.9"/>
+        <module name="com.sun.jersey" slot="1.9"/>
         <module name="org.apache.commons.cli"/>
         <module name="org.apache.commons.codec"/>
         <module name="org.apache.commons.io"/>
@@ -31,7 +31,7 @@
         <module name="sun.jdk" export="true"/>
         <module name="javax.resource.api"/>   
         <module name="org.picketbox"/> 
-        <module name="org.apache.hadoop.common" slot="2.5.0-cdh5.3.1" export="true"/>
-        <module name="org.apache.hadoop.auth" slot="2.5.0-cdh5.3.1" export="true"/>
+        <module name="org.apache.hadoop.common" slot="2.5.0-cdh5.3.6" export="true"/>
+        <module name="org.apache.hadoop.auth" slot="2.5.0-cdh5.3.6" export="true"/>
     </dependencies>
 </module>

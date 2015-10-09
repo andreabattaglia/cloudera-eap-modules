@@ -22,7 +22,7 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.1" name="io.netty.netty-all">
+<module xmlns="urn:jboss:module:1.1" name="io.netty.netty-all" slot="4.0.23">
   
     <resources>
         <resource-root path="netty-all-4.0.23.Final.jar"/>
