@@ -15,7 +15,7 @@
         <module name="org.apache.commons.io"/>
         <module name="org.apache.commons.lang"/>
         <module name="org.apache.commons.logging"/>
-        <module name="com.google.guava"/>
+        <module name="com.google.guava"  />
         <module name="com.google.protobuf"  slot="2.5.0"/>
         <module name="org.jboss.netty"/>
         <module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.3.6" export="true"/>
