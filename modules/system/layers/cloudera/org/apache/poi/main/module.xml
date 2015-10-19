@@ -14,7 +14,7 @@
     <dependencies>
         <module name="javax.api" />
         <module name="org.apache.xmlbeans" />
-        <module name="dom4j" />
+        <module name="org.dom4j" />
 
     </dependencies>
 </module>
