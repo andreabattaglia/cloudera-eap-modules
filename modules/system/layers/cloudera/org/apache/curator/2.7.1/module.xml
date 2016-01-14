@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module xmlns="urn:jboss:module:1.1" name="org.apache.curator" slot="2.7.1">
+    <resources>
+       <resource-root path="curator-client-2.7.1.jar"/>
+       <resource-root path="curator-framework-2.7.1.jar"/>
+       <resource-root path="curator-recipes-2.7.1.jar"/>
+    </resources>
+<dependencies>
+	<module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.4.4" export="true"/> <!-- done -->
+	<module name="org.slf4j" />
+	<module name="com.google.guava" />
+</dependencies>
+</module>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<module xmlns="urn:jboss:module:1.1" name="org.trace" slot="3.0.4">
+    <resources>
+        <resource-root path="htrace-core-3.0.4.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="com.google.guava" /> <!-- ok -->
+        <module name="org.apache.commons.logging"/> <!-- done -->
+        <module name="org.mortbay.jetty" slot="6.1.26.cloudera.4"/>
+        
+    </dependencies>
+</module>
