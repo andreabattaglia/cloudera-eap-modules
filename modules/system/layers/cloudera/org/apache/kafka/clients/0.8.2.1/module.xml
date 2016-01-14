@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.kafka.clients" slot="0.8.2.1">
+    <properties>
+        <property name="jboss.api" value="private"/>
+    </properties>
+    <resources>
+        <resource-root path="kafka-clients-0.8.2.1.jar" />
+        <resource-root path="lz4-1.2.0.jar" />
+        <resource-root path="snappy-java-1.1.1.6.jar" />
+    </resources>
+
+    <dependencies>
+        <module name="org.slf4j"/>
+        <module name="javax.api"/>
+        <module name="sun.jdk" export="true"/>
+        <module name="javax.resource.api"/>
+    </dependencies>
+</module>

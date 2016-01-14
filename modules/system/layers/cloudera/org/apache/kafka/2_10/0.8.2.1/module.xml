@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.kafka.2_10" slot="0.8.2.1">
+    <properties>
+        <property name="jboss.api" value="private"/>
+    </properties>
+    <resources>
+        <resource-root path="kafka_2.10-0.8.2.1.jar" />
+        <resource-root path="jopt-simple-3.2.jar" />
+        <resource-root path="metrics-core-2.2.0.jar" />
+    </resources>
+
+    <dependencies>
+        <module name="com.101tec.zkclient" slot="0.3" export="true" />
+        <module name="org.scala-lang.library" />
+        <module name="org.apache.log4j"/>
+        <module name="org.slf4j"/>
+        <module name="javax.api"/>
+        <module name="sun.jdk" export="true"/>
+        <module name="javax.resource.api"/>
+    </dependencies>
+</module>
