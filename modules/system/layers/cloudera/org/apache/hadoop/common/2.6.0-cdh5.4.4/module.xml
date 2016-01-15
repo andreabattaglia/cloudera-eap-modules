@@ -41,13 +41,13 @@
 		<module name="javax.resource.api" />
 		<module name="org.picketbox" />
 		<module name="org.apache.commons.el" slot="1.0" />
-		<module name="dev.java.net" slot="0.9.0" />
+		<module name="net.java.dev" slot="0.9.0" />
 		<module name="org.codehaus.jackson.jackson-mapper-asl" /> <!-- ok -->
 		<module name="org.codehaus.jackson.jackson-core-asl" /> <!-- ok -->
 		<module name="com.google.code.gson" slot="2.2.4"/>
 		<module name="org.apache.curator" slot="2.7.1"/>
 		<module name="com.google.code.findbugs.jsr305" slot="1.3.9"/>
-		<module name="org.trace" slot="3.0.4"/>
+		<module name="org.htrace" slot="3.0.4"/>
 		<module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.4.4" export="true"/> <!-- done -->
 		<module name="org.apache.commons.compress" slot="1.4"/>
 	</dependencies>

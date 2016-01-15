@@ -29,7 +29,7 @@
         <module name="javax.resource.api"/> <!-- ok -->
         <module name="org.picketbox"/> <!-- ok -->
         <module name="org.jruby.jcodings" slot="1.0.8"/> <!-- ok -->
-        <module name="org.junit"/> <!-- ok -->
+        <module name="org.junit" slot="4.11"/> <!-- ok -->
 
 		
 		<module name="org.codehaus.jackson.jackson-mapper-asl"/> <!-- ok -->

@@ -22,7 +22,7 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.1" name="dev.java.net" slot="0.9.0">
+<module xmlns="urn:jboss:module:1.1" name="net.java.dev" slot="0.9.0">
     <resources>
         <resource-root path="jets3t-0.9.0.jar"/>
         <!-- Insert resources here -->
@@ -31,7 +31,7 @@
     <dependencies>
         <module name="org.apache.commons.codec"/>
         <module name="org.apache.commons.logging"/>
-        <module name="org.apache.httpcomponents"/>com.jamesmurty.utils.java-xmlbuilder
+        <module name="org.apache.httpcomponents"/>
         <module name="com.jamesmurty.utils.java-xmlbuilder" slot="0.4"/>
     </dependencies>
 </module>
