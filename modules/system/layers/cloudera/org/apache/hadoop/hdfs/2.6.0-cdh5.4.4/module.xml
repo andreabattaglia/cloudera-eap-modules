@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.hadoop.hdfs" slot="2.6.0-cdh5.4.4">
+	<resources>
+		<resource-root path="hadoop-hdfs-2.5.0-cdh5.3.6.jar" />
+		<resource-root path="leveldbjni-all-1.8.jar" />
+	</resources>
+
+	<dependencies>
+		<module name="com.google.guava" />
+		<module name="org.mortbay.jetty" slot="6.1.26.cloudera.4" />
+		<module name="com.sun.jersey" slot="1.9" />
+		<module name="org.apache.commons.cli" />
+		<module name="org.apache.commons.codec" />
+		<module name="org.apache.commons.io" />
+		<module name="org.apache.commons.lang" />
+		<module name="org.apache.commons.logging" />
+		<module name="org.apache.commons.daemon" slot="1.0.13" />
+		<module name="com.google.protobuf" slot="2.5.0" />
+		<module name="javax.servlet.api" />
+		<module name="org.codehaus.jackson.jackson-mapper-asl" /> <!-- ok -->
+		<module name="org.codehaus.jackson.jackson-core-asl" /> <!-- ok -->
+
+		<module name="org.codehaus.jackson.jackson-jaxrs" />
+		<module name="org.codehaus.jackson.jackson-xc" />
+		<module name="xmlenc" slot="0.52" />
+		<module name="io.netty.netty-all" slot="4.0.23" />
+		<module name="org.apache.xerces" />
+		<module name="javax.activation.api" />
+		<module name="org.apache.httpcomponents" />
+		<module name="org.apache.log4j" />
+		<module name="org.slf4j" />
+		<module name="javax.api" />
+		<module name="sun.jdk" export="true" />
+		<module name="javax.resource.api" />
+		<module name="org.htrace" slot="3.0.4">
+			<module name="org.picketbox" />
+			<module name="org.apache.hadoop.common" slot="2.6.0-cdh5.4.4"
+				export="true" />
+			<module name="org.apache.hadoop.auth" slot="2.6.0-cdh5.4.4"
+				export="true" />
+	</dependencies>
+</module>

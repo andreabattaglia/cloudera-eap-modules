@@ -34,7 +34,7 @@
 		<module name="org.slf4j" />
 		<module name="org.codehaus.jackson.jackson-jaxrs" />
 		<module name="org.codehaus.jackson.jackson-xc" />
-		<module name="com.google.protobuf" slot="2.5.0" />
+		<module name="com.google.protobuf" slot="2.5.0"/>
 		<module name="com.jcraft.jsch" slot="0.1" />
 		<module name="javax.api" />
 		<module name="sun.jdk" export="true" />
