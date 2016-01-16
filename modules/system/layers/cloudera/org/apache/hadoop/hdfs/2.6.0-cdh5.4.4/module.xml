@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module xmlns="urn:jboss:module:1.0" name="org.apache.hadoop.hdfs" slot="2.6.0-cdh5.4.4">
+<module xmlns="urn:jboss:module:1.0" name="org.apache.hadoop.hdfs"
+	slot="2.6.0-cdh5.4.4">
 	<resources>
-		<resource-root path="hadoop-hdfs-2.5.0-cdh5.3.6.jar" />
+		<resource-root path="hadoop-hdfs-2.6.0-cdh5.4.4.jar" />
 		<resource-root path="leveldbjni-all-1.8.jar" />
 	</resources>
 
@@ -32,11 +33,11 @@
 		<module name="javax.api" />
 		<module name="sun.jdk" export="true" />
 		<module name="javax.resource.api" />
-		<module name="org.htrace" slot="3.0.4">
-			<module name="org.picketbox" />
-			<module name="org.apache.hadoop.common" slot="2.6.0-cdh5.4.4"
-				export="true" />
-			<module name="org.apache.hadoop.auth" slot="2.6.0-cdh5.4.4"
-				export="true" />
+		<module name="org.htrace" slot="3.0.4" />
+		<module name="org.picketbox" />
+		<module name="org.apache.hadoop.common" slot="2.6.0-cdh5.4.4"
+			export="true" />
+		<module name="org.apache.hadoop.auth" slot="2.6.0-cdh5.4.4"
+			export="true" />
 	</dependencies>
 </module>
