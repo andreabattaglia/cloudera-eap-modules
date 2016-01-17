@@ -14,5 +14,6 @@
         <module name="org.apache.log4j"/>
         <module name="org.apache.commons.configuration"/>
         <module name="org.apache.commons.logging"/>
+        <module name="org.htrace" slot="3.0.4" export="true"/>
     </dependencies>
 </module>

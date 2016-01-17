@@ -8,7 +8,7 @@
 		<resource-root path="hbase-protocol-1.0.0-cdh5.4.4.jar" />
 		<resource-root path="htrace-core-3.1.0-incubating.jar" />
 		<resource-root path="findbugs-annotations-1.3.9-1.jar" />
-        <resource-root path="protobuf-java-2.5.0.jar" />
+		<resource-root path="protobuf-java-2.5.0.jar" />
 	</resources>
 	<dependencies>
 		<module name="org.apache.hadoop.common" slot="2.6.0-cdh5.4.4"
@@ -22,7 +22,7 @@
 		<module name="org.apache.commons.lang" /> <!-- ok -->
 		<module name="org.apache.commons.logging" slot="1.2" /> <!-- done -->
 		<module name="com.google.guava" /> <!-- ok -->
-		<!--<module name="com.google.protobuf" slot="2.5.0"/>-->
+		<!--<module name="com.google.protobuf" slot="2.5.0"/> -->
 		<module name="org.jboss.netty" /> <!-- ok -->
 		<module name="org.apache.hadoop.zookeeper" slot="3.4.5-cdh5.4.4"
 			export="true" /> <!-- done -->
@@ -36,7 +36,7 @@
 		<module name="org.picketbox" /> <!-- ok -->
 		<module name="org.jruby.jcodings" slot="1.0.8" /> <!-- ok -->
 		<module name="org.junit" slot="4.11" /> <!-- ok -->
-
+		<module name="org.htrace" slot="3.0.4" export="true"/>
 
 		<module name="org.codehaus.jackson.jackson-mapper-asl" /> <!-- ok -->
 		<module name="org.codehaus.jackson.jackson-core-asl" /> <!-- ok -->
@@ -44,7 +44,7 @@
 		<module name="org.mortbay.jetty" slot="6.1.26.cloudera.4" />
 
 	</dependencies>
-    <exports>
-        <exclude path="com/google" />
-    </exports>
+	<exports>
+		<exclude path="com/google" />
+	</exports>
 </module>
