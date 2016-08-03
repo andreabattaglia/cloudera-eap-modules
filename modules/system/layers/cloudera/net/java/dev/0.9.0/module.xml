@@ -31,7 +31,7 @@
     <dependencies>
         <module name="org.apache.commons.codec"/>
         <module name="org.apache.commons.logging"/>
-        <module name="org.apache.httpcomponents"/>com.jamesmurty.utils.java-xmlbuilder
+        <module name="org.apache.httpcomponents"/>
         <module name="com.jamesmurty.utils.java-xmlbuilder" slot="0.4"/>
     </dependencies>
 </module>
